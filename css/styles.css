@@ -1,0 +1,153 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-span {
+    color: #2E2F42;
+}
+
+/* /Logo */
+
+/* Navigation */
+
+.nav-item {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-item .link:hover,
+.nav-item .link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+/* /Navigation */
+
+/* Hero - Section 1 */
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF
+}
+
+/* /Hero - Section 1 */
+
+/* Content */
+
+.second-title {
+    color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.third-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.content {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-name {
+    color: #2E2F42;
+    text-align: center;
+}
+
+.team-text {
+    text-align: center;
+}
+
+.team-list-item {
+    background-color: #ffffff;
+}
+
+/* ///Content */
+
+/* Footer */
+
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.page-footer .logo-span {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
