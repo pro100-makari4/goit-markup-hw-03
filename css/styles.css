@@ -80,9 +80,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
 }
 
+.menu {
+    border-bottom: 1px solid #E7E9FC;
+}
 
 .menu-nav {
     display: flex;
@@ -92,7 +94,10 @@ img {
 .nav-elements {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+}
+
+.nav-item {
+    padding: 24px 0
 }
 
 .container .link {
@@ -153,13 +158,14 @@ img {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 
     padding: 16px 32px;
-    display: flex;
-    align-items: center;
+    display: block;
     margin: 0 auto 0 auto;
 }
 
@@ -215,11 +221,11 @@ img {
 
 .benefits-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     align-items: flex-start;
 }
 
-.benefits-text {
+.benefits-list-item {
     max-width: 264px;
 }
 
@@ -236,21 +242,21 @@ img {
 }
 
 .team-content {
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
     background-color: #ffffff;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
 }
 
 .team-list-item {
     max-width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* ////TEAM */
@@ -291,9 +297,10 @@ img {
 .page-footer-logo {
     display: block;
     margin-bottom: 16px;
+    display: inline-block
 }
 
-.page-footer-container {
+.page-footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
